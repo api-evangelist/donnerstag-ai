@@ -1,22 +1,79 @@
 aid: donnerstag-ai
 name: Donnerstag Ai
-description: Donnerstag Ai is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Donnerstag.ai (Donnerstag.ai Technologies GmbH) is a Frankfurt-based enterprise
+  fintech building an AI Reconciliation Layer for enterprise finance. Its platform
+  automates financial reconciliation at the line-item level across accounts payable,
+  accounts receivable, bank, and intercompany flows, adapting to each customer's
+  systems, data sources, workflows, and roles. The stated goal is 100% line-item
+  coverage at T+0 so the financial close becomes a confirmation rather than a
+  month-end scramble, with an immutable audit trail for GoBD, IFRS, SOX, and BEPS.
+  The company serves logistics, payment service providers, retail and e-commerce,
+  manufacturing, human resources, and construction, is EU-hosted in Frankfurt, and
+  is founded by Barbaros Ozbugutu and Volkan Ozkan and backed by Speedinvest. As a
+  solution-and-services provider it exposes no public developer API, SDK, or docs.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/iAFSOvcJWm86sIBCSWs4r44RdvY.png
 url: https://raw.githubusercontent.com/api-evangelist/donnerstag-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: portfolio-lead-enriched
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Reconciliation
+- Enterprise Finance
+- Financial Automation
+- Accounts Payable
+- Accounts Receivable
+- Artificial Intelligence
+- Payments
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.donnerstag.ai/
+- type: Blog
+  url: https://www.donnerstag.ai/resources/blog
+- type: Whitepapers
+  url: https://www.donnerstag.ai/resources/whitepapers
+- type: PrivacyPolicy
+  url: https://www.donnerstag.ai/privacy
+- type: TrustCenter
+  url: security/donnerstag-ai-trust-center.yml
+- type: Compliance
+  url: https://www.donnerstag.ai/trust
+- type: DomainSecurity
+  url: security/donnerstag-ai-domain-security.yml
+- type: Contact
+  url: https://147471513.hs-sites-eu1.com/en/book-a-meeting
+- type: LinkedIn
+  url: https://www.linkedin.com/company/donnerstag-ai
+- type: Imprint
+  url: https://www.donnerstag.ai/imprint
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

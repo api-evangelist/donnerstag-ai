@@ -1,0 +1,40 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.donnerstag.ai/trust
+url: https://www.donnerstag.ai/trust
+summary: >-
+  Donnerstag.ai publishes a Trust Center covering security, compliance, and
+  architecture, offering a downloadable "Trust Center Package" for security,
+  audit, and tax teams. Certifications and compliance posture are stated on the
+  public trust page; the detailed package is gated behind a request form.
+certifications:
+- ISO 27001
+compliance_frameworks:
+- GDPR
+- GoBD
+- IFRS
+- SOX
+- BEPS
+security_architecture:
+- AES-256 encryption
+- TLS 1.3 in transit
+- SSO
+- SCIM
+data_residency: EU (Frankfurt), SCCs pre-executed
+data_use_policy: Zero Training Policy — customer data never used to train models
+audit_posture: Audit-Ready by Design — 100% line-item coverage with an immutable trail
+deployment_models:
+- SaaS
+- Single-Tenant
+- BYOC
+- On-Prem
+evidence:
+- source: https://www.donnerstag.ai/trust
+  keywords:
+  - iso 27001
+  - eu hosted
+  - gdpr
+  - trust center
+  - compliance coverage
+  - security architecture
